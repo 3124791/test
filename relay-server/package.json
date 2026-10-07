@@ -1,0 +1,16 @@
+{
+  "name": "browser-peer-signaling-relay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WebSocket signaling relay for browser-hosted peer-to-peer sessions",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
